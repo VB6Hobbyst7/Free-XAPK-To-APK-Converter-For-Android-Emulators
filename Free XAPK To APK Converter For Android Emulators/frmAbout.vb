@@ -18,10 +18,10 @@ Public Class frmAbout
     End Sub
 
     Private Sub picBlurDest_MouseEnter(sender As Object, e As EventArgs) Handles picBlurDest.MouseEnter
-        picBlurDest.BackColor = SystemColors.ControlDark
+        picBlurDest.BackColor = SystemColors.Control
     End Sub
 
     Private Sub picBlurDest_MouseLeave(sender As Object, e As EventArgs) Handles picBlurDest.MouseLeave
-        picBlurDest.BackColor = SystemColors.Control
+        picBlurDest.BackColor = Color.White
     End Sub
 End Class
